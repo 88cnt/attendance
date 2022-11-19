@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+#search {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    width: 98%;
+    margin: auto;
+}
+
+tr:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+td {
+    padding: 5px;
+}
