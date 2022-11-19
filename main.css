@@ -23,3 +23,8 @@ tr:hover {
 td {
     padding: 5px;
 }
+
+#result {
+    padding: 10px;
+    font-weight: bold;
+}
