@@ -52,6 +52,5 @@ window.onload = function () {
             }
         }
         result.innerHTML = result_ct + " results";
-        console.log(result_ct);
     }
 }
