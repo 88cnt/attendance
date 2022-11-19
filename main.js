@@ -1,6 +1,7 @@
 window.onload = function () {
     const inputElement = document.getElementById("file");
     const searchElement = document.getElementById("search");
+    const result = document.getElementById("result")
     var names = [];
 
     if (inputElement) {
@@ -41,12 +42,15 @@ window.onload = function () {
     function searchFunc() {
         let val = searchElement.value;
         table.innerHTML = "";
+        let result_ct = 0;
         for (let name of names) {
             if (name.toLowerCase().includes(val.toLowerCase())) {
                 let tr = table.insertRow();
                 let td = tr.insertCell();
                 td.innerHTML = name
+                result_ct++;
             }
         }
+        result.innerHTML = result_ct + " results";
     }
 }
