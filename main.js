@@ -11,6 +11,7 @@ window.onload = function () {
     }
 
     function handleFiles() {
+        names = [];
         const fileList = this.files;
         searchElement.value = "";
         for (let file of fileList) {
