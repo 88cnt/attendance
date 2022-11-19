@@ -2,17 +2,17 @@
 <html>
     <head>
         <title>Zoom Attendance Calculator</title>
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="main.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head>
     <body>
         <script defer src="csv.min.js"></script>
         <script defer src="main.js"></script>
-        <input type="file" id="file" multiple>
+        <input type="file" id="file" accept=".csv" multiple>
         <br>
         <br>
         <input type="text" id="search" placeholder="Search for a name here...">
-        <br>
+        <p id="result"></p>
         <table id="table"></table>
     </body>
 </html>
