@@ -25,6 +25,15 @@ td {
 }
 
 #result {
-    padding: 10px;
+    padding: 4px;
     font-weight: bold;
+}
+
+.fake-link {
+    display: inline;
+    text-decoration: underline;
+}
+
+a {
+    color: black;
 }
